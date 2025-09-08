@@ -45,26 +45,24 @@ color: white;
     transform: none;
 }
 .tool-divv{
-    width: 350px;
+    max-width: 400px;
     height: 220px;
     padding: 30px;
-  
+    transition: 0.5s;
 }
 .tool-div5{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 40px;
     margin-top: 50px;
-    transition: 1s ease, ;
-        box-shadow: 0.3s ease;
+    padding: 20px;
+   
 }
 
 
-.tool-div5 :hover{
-    transform: translateY(-10px);
+.tool-divv:hover{
+    transform: translateY(-25px);
     background-color: rgba(0, 0, 0, 0.414);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    
 }
 .load{
     width: 184px;
@@ -97,8 +95,13 @@ margin-top: 20px;
 }
 @media (max-width:760px) {
     .tool-div5 {
-        display: grid;
-        grid-template-columns: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+
+       
+
     }
 }
 @media (max-width:421px) {
