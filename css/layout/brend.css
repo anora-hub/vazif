@@ -19,8 +19,10 @@ padding-left: 60px;
 padding-right: 60px;
 }
 .brand{
-    background-color:#1e252b;
     padding-top: 30px;
+}
+.brand-hero{
+    background-color: #1e252b;
 }
 @media (max-width:997px) {
     .brand-div{

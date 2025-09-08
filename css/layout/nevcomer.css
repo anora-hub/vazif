@@ -1,8 +1,10 @@
 .newcomer{
     display: flex;
     justify-content: space-between;
-    background-color: #1e252b;
     padding-top: 50px;
+}
+.newcomer-hero{
+background-color: #1e252b;
 }
 .newcomer-div{
     display: grid;
