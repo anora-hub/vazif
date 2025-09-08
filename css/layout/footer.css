@@ -1,0 +1,58 @@
+.antols-div h1 {
+    font-size: 16px;
+    color: white;
+    padding-top: 10px;
+}
+
+.antolc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.antol{
+    background-color: #1e252b;
+}
+
+.antolc-div1 h1 {
+    font-size: 22px;
+    color: white;
+}
+
+.antolc-div2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.antols-div p{
+    color: #FFFFFF8C;
+    line-height: 25px;
+    padding-top: 10px;
+}
+.antols-div{
+    padding-top: 50px;
+}
+.antolc-div4{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 15px;
+}
+.altol p{
+    color: #FFFFFF8C;
+    padding-top: 10px;
+}
+@media (max-width:842px) {
+    .antolc{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 30px;
+    }
+}
+@media (max-width:513px) {
+    .antolc {
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 40px;
+        text-align: center;
+    }
+}
