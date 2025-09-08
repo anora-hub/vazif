@@ -1,11 +1,11 @@
 .hero{
     padding-top:87px;
+        background-color: #1e252b;
 }
 .hero-content{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1e252b;
     padding-top: 30px;
 }
 .hero-infos h1 {
